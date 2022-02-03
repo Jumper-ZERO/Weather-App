@@ -8,19 +8,11 @@
 
 <div align="center">
   <h3>
-<<<<<<< HEAD
-    <a href="https://{https://jumper-zero.github.io/Weather-App/}">
+    <a href="https://jumper-zero.github.io/Weather-App/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://www.figma.com/file/5X3Ao3gEqZPqqKctP7riDF}">
-=======
-    <a href="https://{jumper-zero.github.io/Weather-App/}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{www.figma.com/file/5X3Ao3gEqZPqqKctP7riDF}">
->>>>>>> 2eb86git 81 (edit readme)
+    <a href="https://www.figma.com/file/5X3Ao3gEqZPqqKctP7riDF">
       Solution
     </a>
     <span> | </span>
@@ -81,5 +73,5 @@ $ git clone Jumper-ZERO/Weather-App
 
 ## Contact
 
-- GitHub [@Jumper-ZERO](https://{github.com/Jumper-ZERO})
-- Twitter [@@AronJeremi](https://{twitter.com/AronJeremi})
+- GitHub [@Jumper-ZERO](https://github.com/Jumper-ZERO)
+- Twitter [@AronJeremi](https://twitter.com/AronJeremi)
