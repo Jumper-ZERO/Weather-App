@@ -8,11 +8,19 @@
 
 <div align="center">
   <h3>
+<<<<<<< HEAD
     <a href="https://{https://jumper-zero.github.io/Weather-App/}">
       Demo
     </a>
     <span> | </span>
     <a href="https://{https://www.figma.com/file/5X3Ao3gEqZPqqKctP7riDF}">
+=======
+    <a href="https://{jumper-zero.github.io/Weather-App/}">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://{www.figma.com/file/5X3Ao3gEqZPqqKctP7riDF}">
+>>>>>>> 2eb86git 81 (edit readme)
       Solution
     </a>
     <span> | </span>
@@ -60,13 +68,8 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone Jumper-ZERO/Weather-App
 
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
 
 ## Acknowledgements
