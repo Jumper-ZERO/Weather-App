@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://{https://jumper-zero.github.io/Weather-App/}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{https://www.figma.com/file/5X3Ao3gEqZPqqKctP7riDF}">
       Solution
     </a>
     <span> | </span>
@@ -78,6 +78,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@Jumper-ZERO](https://{github.com/Jumper-ZERO})
+- Twitter [@@AronJeremi](https://{twitter.com/AronJeremi})
