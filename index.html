@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/Weather_mobile.css" media="(max-width: 375px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
-    <header>
-        <nav></nav>
-        <section>
-            <img src="/" alt="nube">
-            <div>
-                <h1></h1>
-                <h2></h2>
-                <p></p>
-                <p></p>
+    <header class="hero">
+        <nav class="hero-nav">
+            <button type="button" class="hero-nav--seach">Seach for places</button>
+            <input type="button" class="hero-nav--gps">
+        </nav>
+        <section class="hero-content">
+            <figure class="hero-figure">
+                <img src="./icons/Cloud-background.png" alt="background">
+                <img src="./icons/shower.png" alt="cloudy">
+            </figure>
+            <div class="hero-text">
+                <h1 class="hero-text--grado">15<span class="hero-text--grado__c">°C</span></h1>
+                <h2 class="hero-text--status"></h2>
+                <p class="hero-text--time"></p>
+                <p class="hero-text--place"></p>
             </div>
         </section>
     </header>
