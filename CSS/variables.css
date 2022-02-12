@@ -1,8 +1,12 @@
 :root {
     --black-light: #1E213A;
     --black-dark: #100E1D;
+    --white: #ffffff;
     --white-dark: #E7E7EB;
     --gray: #6E707A;
+    --gray2: #A09FB1;
+    --gray3: #88869D;
     --purple: #3C47E9;
     --yellow: #FFEC65;
+    --font1: 'Raleway', sans-serif;
 }

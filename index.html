@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="./CSS/Weather_mobile.css" media="(max-width: 375px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
@@ -21,14 +22,27 @@
         </nav>
         <section class="hero-content">
             <figure class="hero-figure">
-                <img src="./icons/Cloud-background.png" alt="background">
-                <img src="./icons/shower.png" alt="cloudy">
+                <img src="./Imagenes/Cloud-background.png" alt="background">
+                <img src="./Imagenes/Shower.png" alt="cloudy">
             </figure>
             <div class="hero-text">
-                <h1 class="hero-text--grado">15<span class="hero-text--grado__c">°C</span></h1>
-                <h2 class="hero-text--status"></h2>
-                <p class="hero-text--time"></p>
-                <p class="hero-text--place"></p>
+                <h1 class="hero-text--grado">
+                    <span>1</span>
+                    <span>5</span>
+                    <span>°</span>
+                    <span>C</span>
+                </h1>
+                <h2 class="hero-text--status">shower</h2>
+                <div class="hero-text--time">
+                    <span>Today</span>  
+                    <span class="__punto">.</span> 
+                    <span>Fri. 5 Jun</span> 
+                </div>
+                <div class="hero-text--locate">
+                    <span class="locate"></span>
+                    <span>Helsinki</span>
+                </div>
+                
             </div>
         </section>
     </header>

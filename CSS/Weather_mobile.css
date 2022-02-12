@@ -6,6 +6,7 @@
 }
 html {
     font-size: 62.5%;
+    font-family: var(--font1);
 }
 body {
     overflow-y: scroll;
@@ -63,4 +64,90 @@ body {
 .hero-figure img[alt="cloudy"]{
     width: 150px;
     height: 174px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text--grado {
+    position: relative;
+    font-family: var(--font1);
+    text-align: center;
+    height: 170px;
+    width: 100%;
+    top: -40px;
+}
+.hero-text--grado span:nth-child(1){
+    font-weight: 500;
+    font-size: 14.4rem;
+    line-height: 170px;
+}
+.hero-text--grado span:nth-child(2){
+    font-weight: 500;
+    font-size: 14.4rem;
+    line-height: 170px;
+}
+.hero-text--grado span:nth-child(3){
+    font-weight: 300;
+    font-size: 4.8rem;
+    line-height: 56.35px;
+}
+.hero-text--grado span:nth-child(4){
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 56px;
+}
+.hero-text--grado span:nth-child(1), .hero-text--grado span:nth-child(2) {
+    color: var(--white);
+}
+.hero-text--grado span:nth-child(3), .hero-text--grado span:nth-child(4) {
+    color: var(--gray);
+}
+.hero-text--status {
+    height: 42px;
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--gray2);
+    position: relative;
+    top: -20px;
+}
+.hero-text--time {
+    font-size: 1.8rem;
+    color: var(--gray3);
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    font-weight: 500;
+}
+.hero-text--time span:nth-child(2) {
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    font-weight: 700;
+    position: relative;
+    top: -12px;
+}
+.hero-text--locate {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+.hero-text--locate span:nth-child(1) {
+    background-image: url(/Iconos/outline_location_on_white_24dp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.hero-text--locate span:nth-child(2) {
+    color: var(--gray3);
+    font-size: 1.8rem;
 }
