@@ -207,6 +207,74 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    font-size: 1.6rem;
+    gap: 16px;
+}
+.date-time .target .grade span:nth-child(1) {
+    color: var(--white-dark);
+}
+.date-time .target .grade span:nth-child(2) {
+    color: var(--gray2);
+}
+.date-today {
+    padding: 23px;
+    display: grid;
+    row-gap: 32px;
+}
+.date-today--title {
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: var(--white-dark);
+}
+.date-today .card {
+    padding-top: 22px;
+}
+.date-today .card--titule {
+    text-align: center;
     color: var(--white-dark);
     font-size: 1.6rem;
+}
+.date-today .card {
+    width: 328px;
+    height: 204px;
+    background-color: var(--black-light);
+}
+.date-today .card--date{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 6.4rem;
+    color: var(--white-dark);
+    line-height: 75px;
+}
+.date-today .card--date span{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.6rem;
+    color: var(--white-dark);
+    line-height: 42px;
+}
+.date-today .card-footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    align-items: center;
+}
+.date-today .card-footer span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white-dark);
+}
+.date-today .card-icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--gray2);
+    border-radius: 50%;
+    z-index: 2;
+}
+.date-today .card-icon span {
+    background-image: url(../Iconos/outline_navigation_white_24dp.png);
+    z-index: 3;
 }
