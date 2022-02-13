@@ -7,17 +7,20 @@
 html {
     font-size: 62.5%;
     font-family: var(--font1);
-}
-body {
     overflow-y: scroll;
     overflow-x: hidden;
     min-width: 320px;
     max-width: 375px;
 }
+header {
+    background-color: var(--black-light);
+}
+main {
+    background-color: var(--black-dark);
+}
 .hero {
     max-width: 100%;
     height: 100vh;
-    background-color: var(--black-light);
     overflow: hidden;
 }
 .hero-nav {
@@ -150,4 +153,60 @@ body {
 .hero-text--locate span:nth-child(2) {
     color: var(--gray3);
     font-size: 1.8rem;
+}
+.date-time {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 26px;
+    padding: 32px;
+}
+.date-time .weather1 {
+    justify-self: end;
+}
+.date-time .weather2 {
+    justify-self: start;
+}
+.date-time .weather3 {
+    justify-self: end;
+}
+.date-time .weather4 {
+    justify-self: start
+}
+.date-time .weather5 {
+    justify-self: end;
+}
+.date-time img {
+    position: relative;
+    width: 56.44px;
+    height: 62px;
+    align-self: center;
+}
+.date-time img:nth-child(4) {
+    width: 66.51px;
+    height: 62px;
+    align-self: center;
+}
+.date-time .weather-titule {
+    text-align: center;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19px;
+}
+.date-time .target {
+    padding: 18px 0 18px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120px;
+    height: 177px;
+    background-color: var(--black-light);
+}
+.date-time .target .grade{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--white-dark);
+    font-size: 1.6rem;
 }
