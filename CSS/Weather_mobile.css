@@ -141,7 +141,7 @@ body {
     gap: 5px;
 }
 .hero-text--locate span:nth-child(1) {
-    background-image: url(/Iconos/outline_location_on_white_24dp.png);
+    background-image: url(../Iconos/outline_location_on_white_24dp.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 24px;
