@@ -137,6 +137,7 @@ main {
 }
 .hero-text--locate {
     margin-top: 35px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
